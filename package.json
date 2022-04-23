@@ -1,0 +1,20 @@
+{
+   "name": "rentals-server",
+   "version": "0.0.1",
+   "description": "Server for the house rentals app",
+   "devDependencies": {
+      "@types/express": "^4.17.13",
+      "@types/node": "^8.0.29",
+      "ts-node": "3.3.0",
+      "typescript": "3.3.3333"
+   },
+   "dependencies": {
+      "express": "^4.17.3",
+      "pg": "^8.4.0",
+      "reflect-metadata": "^0.1.10",
+      "typeorm": "0.2.37"
+   },
+   "scripts": {
+      "start": "ts-node src/index.ts"
+   }
+}
